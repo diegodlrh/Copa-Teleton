@@ -1,0 +1,85 @@
+.my-gallery {
+    width: 100%;
+    float: left;
+}
+.my-gallery img {
+    width: 100%;
+    height: auto;
+}
+.my-gallery figure {
+/*    display: block;
+    float: left;*/
+    margin: 0 7px 2px 0;
+    width: 170px;
+    height: 100px;
+    display: inline-block;
+}
+.my-gallery figcaption {
+    display: none;
+}
+
+.fondoGal{
+    background-color: #232323;
+    /* position: fixed; */
+    /* height: 1500px; 
+    padding-left: 5%;*/
+    width: 100%;
+    float: left;
+    height: auto;
+    
+}
+
+
+
+.fotos_galeria{
+    display: none;
+    /*padding:5%;*/
+    text-align: center;
+}
+
+.hombre_mujer_boton, .fecha_mujer_partidos a, .fecha_hombre_partidos a{
+    background-color: aliceblue;
+    padding: 25px 30%;
+    border-radius: 15px;
+}
+.hombre_mujer span, .fecha_mujer_partidos span, .fecha_hombre_partidos span{
+    width: 100% !important;
+    text-align: center;
+    float: left;
+    margin-top: 100px;
+}
+.fecha_mujer_botones span, .fecha_hombre_botones span{
+    margin-top: 70px !important;
+}
+.fecha_mujer_botones a, .fecha_hombre_botones a{
+    padding: 25px 25% !important;
+
+}
+.fecha_mujer_partidos a, .fecha_hombre_partidos a{
+    padding: 25px 10% !important;
+}
+.hombre_mujer{
+    left: 0px;
+}
+
+h4, .volvertext{
+    color:white !important;
+    padding:20px;
+    
+}
+a{
+    color: black !important;
+}
+#cruz{
+        color: white;
+    float: right;
+    margin: 20px 30px;
+    font-weight: bold;
+}
+/*ocultos*/
+.fechas_hombre, .fechas_mujer, .fecha_mujer_partidos, .fecha_hombre_partidos{
+    display:none;
+}
+body{
+        background-color: #232323;
+}
